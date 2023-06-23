@@ -1,0 +1,83 @@
+{
+	"user": "Thiago",
+	"repo": "advanced-roleplay",
+	"entry": "gamemodes/main.pwn",
+	"output": "gamemodes/main.amx",
+	"dependencies": [
+		"openmultiplayer/omp-stdlib",
+		"pawn-lang/samp-stdlib@open.mp",
+		"pawn-lang/pawn-stdlib@open.mp",
+		"NexiusTailer/Nex-AC",
+		"Zeex/samp-plugin-crashdetect",
+		"pawn-lang/YSI-Includes",
+		"pBlueG/SA-MP-MySQL",
+		"Southclaws/pawn-chrono",
+		"BigETI/pawn-memory",
+		"Y-Less/sscanf:v2.13.8",
+		"Y-Less/indirection",
+		"samp-incognito/samp-streamer-plugin:v2.9.6",
+		"Awsomedude/easyDialog",
+		"maddinat0r/samp-discord-connector:v0.3.5",
+		"oscar-broman/strlib",
+		"lassir/bcrypt-samp",
+		"samp-incognito/samp-streamer-plugin",
+		"Pottus/ColAndreas",
+		"Southclaws/progress2",
+		"Awsomedude/easyDialog",
+		"philip1337/samp-plugin-mapandreas:v1.2.1",
+		"katursis/Pawn.CMD",
+		"dakyskye/pawn-env:1.1.1",
+		"katursis/Pawn.Regex:1.2.3"
+	],
+	"local": true,
+	"runtime": {
+		"version": "openmp",
+		"mode": "server",
+		"rcon_password": "$2y$12$jMgQpLyoJamGeMAaCTNzgOYuR",
+		"port": 7777,
+		"hostname": "Advanced Roleplay",
+		"maxplayers": 50,
+		"language": "Brazilian Portuguese",
+		"mapname": "AD:RP",
+		"weburl": "www.advanced-roleplay.com.br",
+		"gamemodetext": "AD:RP",
+		"announce": true,
+		"lanmode": false,
+		"query": true,
+		"rcon": false,
+		"logqueries": false,
+		"sleep": 5,
+		"maxnpc": 0,
+		"stream_rate": 1000,
+		"stream_distance": 200,
+		"onfoot_rate": 30,
+		"incar_rate": 30,
+		"weapon_rate": 30,
+		"chatlogging": true,
+		"timestamp": true,
+		"messageholelimit": 3000,
+		"messageslimit": 500,
+		"ackslimit": 6000,
+		"playertimeout": 10000,
+		"minconnectiontime": 0,
+		"lagcompmode": 1,
+		"connseedtime": 300000,
+		"db_logging": false,
+		"db_log_queries": false,
+		"conncookies": true,
+		"cookielogging": false,
+		"output": true,
+		"extra": {
+			"discord_bot_token": "SAMP_DISCORD_BOT_TOKEN"
+		}
+	},
+	"builds": [
+		{
+			"name": "main",
+			"includes": [
+				"legacy"
+			],
+			"compiler": {}
+		}
+	]
+}
